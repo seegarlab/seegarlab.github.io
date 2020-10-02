@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+body {
+    background: #fdfffc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #0d1821;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    color: #0d1821;
+}
+
+
+.header {
+    width: 100%;
+    height: 10rem;
+}
+.header h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.header li {
+    font-family: 'Lato', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #0d1821;
+    transition: all .05s ease-in-out;
+}
+.header li:hover {
+    transform: scale(1.2);
+}
+.header a {
+    text-decoration: none;
+    color: #0d1821;
+}
+.active {
+    color: #5c80bc;
+}
+
+
+
+.main {
+    width: 70%;
+    height: 30rem;
+    margin: auto;
+}
+.welcome {
+    height: 15rem;
+}
+.welcome-text {
+    padding: 1rem;
+}
+.welcome-pic img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 1rem;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.left-text {
+    float: left;
+    width: 70%;
+    height: 50%;
+}
+.right {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.right-pic {
+    float: right;
+    width: 30%;
+    height: 50%
+}
+
+
+
+
+
+.footer {
+    height: 14rem;
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.address h3 {
+    color: #0d1821;
+}
+.address a {
+    text-decoration: none;
+}
+.address p {
+    color: #0d1821;
+}
+
+.links p a {
+    font-size: 1rem;
+    color: #0d1821;
+    text-decoration: none;
+}
+
+
