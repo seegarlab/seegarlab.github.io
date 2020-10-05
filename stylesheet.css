@@ -3,7 +3,6 @@
 body {
     background: #fdfffc;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     color: #0d1821;
@@ -12,15 +11,33 @@ p {
     font-family: 'Lato', sans-serif;
     color: #0d1821;
 }
-
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4%;
+}
+a {
+    text-decoration: none;
+    color: #0d1821;
+}
+a:hover {
+    text-decoration: none;
+    color: #266dd3;
+}
+.justify {
+    text-align: justify;
+}
 
 .header {
-    width: 100%;
-    height: 10rem;
+    text-align: center;
+    min-height: 10rem;
+    line-height: 100%;
 }
 .header h1 {
-    font-size: 3rem;
-    text-align: center;
+    font-weight: 400;
+    font-size: 3.2rem;
 }
 .header ul {
     display: flex;
@@ -31,87 +48,53 @@ p {
 }
 .header li {
     font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: #0d1821;
-    transition: all .05s ease-in-out;
 }
 .header li:hover {
     transform: scale(1.2);
 }
-.header a {
-    text-decoration: none;
-    color: #0d1821;
+.center {
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
-.active {
-    color: #5c80bc;
-}
-
 
 
 .main {
-    width: 70%;
-    height: 30rem;
-    margin: auto;
+    min-height: 35rem;
+    width: 100%;
 }
-.welcome {
-    height: 15rem;
+.main h2 {
+    font-weight: 500;
 }
-.welcome-text {
-    padding: 1rem;
+.contact {
+    line-height: 85%;
 }
-.welcome-pic img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 1rem;
+.people {
+    line-height: 70%;
 }
-
-.left {
-    float: left;
-    width: 50%;
-    height: 100%;
+.people img {
+    max-width: 200x;
+    max-height: 200px;
 }
-.left-text {
-    float: left;
-    width: 70%;
-    height: 50%;
-}
-.right {
-    float: right;
-    width: 50%;
-    height: 100%;
-}
-.right-pic {
-    float: right;
-    width: 30%;
-    height: 50%
-}
-
-
-
-
 
 .footer {
-    height: 14rem;
-    max-width: 50%;
-    margin: auto;
     text-align: center;
+    bottom: 0;
 }
-.address h3 {
-    color: #0d1821;
+.footer-left {
+    line-height: 80%;
 }
-.address a {
-    text-decoration: none;
+.footer-right {
+    line-height: 40%;
 }
-.address p {
-    color: #0d1821;
-}
-
-.links p a {
-    font-size: 1rem;
-    color: #0d1821;
-    text-decoration: none;
+.cred {
+    color: #DCE0D9;
 }
 
 
